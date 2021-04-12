@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EMPassport">
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".RecordActivity"></activity>
+        <activity android:name=".EffectActivity" />
+        <activity android:name=".ChemistryActivity" />
+        <activity android:name=".RadiationActivity" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".BloodActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".MealActivity" />
+        <activity android:name=".DiseaseActivity" />
+        <activity android:name=".EduActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
